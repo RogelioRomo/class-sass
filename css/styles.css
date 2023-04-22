@@ -38,12 +38,8 @@ h1 {
   color: rgb(1, 143, 60);
 }
 
-h2 {
-  color: rgb(1, 143, 60);
-}
-
 .site-header {
-  background-color: black;
+  background-color: rgb(34, 33, 33);
   color: white;
   height: 20vh;
   padding: 3rem 0rem;
@@ -71,6 +67,10 @@ h2 {
   color: aqua;
 }
 
+h2 {
+  color: rgb(1, 143, 60);
+}
+
 @media (min-width: 768px) {
   .grid-padre {
     display: grid;
@@ -83,8 +83,56 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.grid-padre {
+  background-color: white;
+}
+
 .hijo img {
   min-width: 80rem/2;
+}
+
+.btn, .btn-agotado {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.site-footer {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  height: 20vh;
+  padding: 3rem 0rem;
+}
+
+.iconos a {
+  color: white;
+  margin: 1rem;
+  font-size: 3rem;
+}
+.iconos a:hover {
+  color: aqua;
+}
+
+.fruit-color.apple {
+  background-color: red;
+  padding: 10px;
+  list-style: none;
+}
+.fruit-color.orange {
+  background-color: orange;
+  padding: 10px;
+  list-style: none;
+}
+.fruit-color.banana {
+  background-color: yellow;
+  padding: 10px;
+  list-style: none;
+}
+.fruit-color.frutilla {
+  background-color: pink;
+  padding: 10px;
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

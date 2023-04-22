@@ -1,29 +1,18 @@
 @import '../var/variables';
 
-h1{
-    color: $new-color;
-}
-
-h2{
+h1 {
     color: $new-color;
 }
 
 .site-header {
-    background-color: black;
-    color: white;
-    height: 20vh;
-    padding: 3rem 0rem;
+    @include bg-header-footer;
 }
 
 .site-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex-center;
 
     ul {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex-center;
 
         li {
             list-style: none;
@@ -32,7 +21,8 @@ h2{
             a {
                 text-decoration: none;
                 color: white;
-                &:hover{
+
+                &:hover {
                     color: aqua;
                 }
             }
